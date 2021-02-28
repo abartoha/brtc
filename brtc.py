@@ -14,6 +14,8 @@ def _set_value(val):
         sbc.set_brightness(int(val))
         pass
 
+
+
 class GUI:
     def __init__(self):
         self.app = Tk()
@@ -25,7 +27,7 @@ class GUI:
         pass
     def _widgets(self):
         self.brightness = IntVar()
-        self.slider = Scale(self.app, length=300,from_=0, to=100,orient=HORIZONTAL)
+        self.slider = Scale(self.app, length=300,from_=0, to=100,orient=HORIZONTAL, takefocus=1, highlightthickness=1)
         self.slider.set(sbc.get_brightness())
         self.button = Button(self.app, text='Set', command=self._set_value)
         pass
