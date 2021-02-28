@@ -11,6 +11,7 @@ It can be used by both Windows and Linux users (not tested on Linux, please let 
 # Recommended way of using it:
 
 ### Windows:
+- Download the file from `exe_file` folder of the repo
 - Copy the .exe to C:/Windows
 - Then, Right Click on the file, Select `Properties`
 - Choose the `Compatibility` tab and tick the `Run as Administrator` box
@@ -20,7 +21,7 @@ It can be used by both Windows and Linux users (not tested on Linux, please let 
 - If oyu don't set Administrator, the system will prompt `Failed to Run Script`
 
 ### Linux:
-- Linux users shoudl eb apt enough to do it by themselves
+- Linux users should be apt enough to do it by themselves
 - Ok, maybe a hint? https://unix.stackexchange.com/questions/425394/how-can-i-get-a-binary-from-a-py-file
 
 
